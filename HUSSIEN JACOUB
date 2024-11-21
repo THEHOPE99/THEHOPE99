@@ -1,0 +1,32 @@
+#include <iostream>
+ 
+using namespace std;
+ 
+int main()
+{
+    int income;
+    int expenditure;
+    int profit;
+ 
+ 
+    cout << " please insert company income:";
+    cin >> income;
+ 
+    cout << " please insert company expenditure:";
+    cin >> expenditure;
+ 
+    profit = income - expenditure;
+ 
+    if (profit > 0)
+ 
+       cout << " the company has profit..."<< endl << " the profit is:" << profit;
+ 
+    else
+       cout << " the company lose ..." << endl << " the lose is:" << profit;
+ 
+ 
+ 
+       return 0;
+ 
+}
+ 
